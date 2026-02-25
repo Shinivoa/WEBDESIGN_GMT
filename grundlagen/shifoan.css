@@ -1,0 +1,46 @@
+.Lyrics {
+  font-family: berosong, sans-serif;
+  font-size: 1.6em;
+  color: white;
+  margin-top: 0;
+}
+
+.Top {
+  align-items: center;
+  position: sticky;
+}
+.Logo {
+  transform-origin: top center;
+  width: 230px;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.content_allign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.box {
+  background-color: rgba(30, 30, 30, 0.5); /* Semi-transparent background */
+  border-radius: 40px;
+  padding: 20px;
+  margin-top: 20px;
+  backdrop-filter: blur(10px);
+}
+
+#container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+body {
+  background-color: #000000;
+  background-image: url("/grundlagen/free-photo-of-winter-scenic-mountain-landscape.jpeg");
+  background-size: cover;
+  background-position: center;
+}
